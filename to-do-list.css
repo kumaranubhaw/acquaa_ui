@@ -1,0 +1,127 @@
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.mtx {
+    margin-top: 4rem;
+}
+
+.mtm {
+    margin-top: 2rem;
+}
+
+.mrs {
+    margin-right: 1rem;
+}
+
+.conatiner {
+    width: 85%;
+    margin: auto;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.text-color {
+  color: #333333;
+}
+
+.header-text-color {
+  color: #707070;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.font.header {
+    font-size: calc(2em + 2vmin);
+}
+
+.font.large {
+    font-size: calc(1.3em + 1vmin);
+}
+
+.font.medium {
+    font-size: calc(0.7em + 1vmin);
+}
+
+.font.small {
+    font-size: calc(0.45em + 1vmin);
+}
+
+.rounded-corner {
+   border-radius: 4px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.curssor-pointer {
+    cursor: pointer;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 2px -2px #a4a4a4, 0 0 2px #a4a4a4 !important;
+    border-radius: 4px;
+}
+
+.submit-btn, .submit-btn:focus, .submit-btn:hover {
+    background-color: #fff;
+    color: #333333;
+    width: 15%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: darkorange;
+}
+
+.add-btn, .add-btn:focus, .add-btn:hover {
+    background-color: #fff;
+    color: #333333;
+    width: 15%;
+    height: 40px;
+}
+
+.delete-btn, .delete-btn:focus, .delete-btn:hover {
+    background-color: #fff;
+    color: #333333;
+    width: 60%;
+    height: 30px;
+}
+
+input[type="text"] {
+    width: 60%;
+    height: 40px;
+    text-indent: 10px;
+}
+
+input[type="checkbox"] {
+    height: 40px;
+    width: 8%;
+}
+
+select {
+   height: 40px;
+    border-radius: 4px;
+    width: 20%; 
+}
+
+table {
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}

@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>To Do List</title>
+		<link rel="stylesheet" type="text/css" href="./to-do-list.css" />
+		<script type="text/javascript" src="./to-do-list.js"></script>
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div class="conatiner">
+			<h1 class="center-align bold font header mtx">TO DO LIST</h1>
+			<div>
+				<select name="filter" id="filter">
+				  <option value="all">All</option>
+				  <option value="pending">Pending</option>
+				  <option value="completed">Completed</option>
+				</select>
+			</div>
+			<div class="list mtm" id="list">
+
+			</div>
+			<div class="mtm">
+				<input type="text" placeholder="Enter your task" id="task" class="rounded-corner font medium" />
+				<button class="mrs add-btn bold font medium curssor-pointer rounded-corner" onclick="addTask()">ADD</button>
+			</div>
+		</div>
+	</body>
+</hrml>

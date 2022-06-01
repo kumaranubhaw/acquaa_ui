@@ -1,5 +1,3 @@
-# acquaa_ui
-
 Implemented single page application for todo-list which provide facilty to add, list, update, delete tasks. It has facility to filter the task based on different options provided.
 For storage of task, Browser Local storage is used.
 
@@ -19,11 +17,3 @@ To Filter based on the requirement
   select the filter option from the dropdown to display filtered tasks
   
    
-
-
-Install cors in server
-npm install cors
-
-add below line to index.js for node server
-var cors = require('cors');
-app.use(cors());
